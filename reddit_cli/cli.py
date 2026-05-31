@@ -9,7 +9,7 @@ def view_post(url: str):
     try:
         post_id = extract_post_id(url)
     except ValueError as e:
-        print(f"Error: {e}")
+        print(f"Error : {e}")
         return
     try:
         raw = fetch_post_data(post_id)
