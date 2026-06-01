@@ -6,6 +6,7 @@ requires-python = ">=3.10"
 dependencies = [
     "python-dotenv",
     "requests",
+    "rdt-cli",
 ]
 
 [project.scripts]
