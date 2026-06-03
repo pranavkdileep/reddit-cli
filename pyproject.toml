@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-reddit-cli = "reddit_cli.auto:main"
+reddit-cli = "reddit_cli.cli:main"
 
 [build-system]
 requires = ["hatchling"]
